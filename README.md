@@ -1,7 +1,7 @@
 # webmirror
 mirror on web  
 
-webmirror
+webmirror  
 https://taisukef.github.io/webmirror/  
 
 zoommirror (self forked webmirror)  
@@ -11,3 +11,6 @@ license
 CC BY fukuno.jig.jp  
 https://creativecommons.org/licenses/by/4.0/deed.ja  
 
+related project  
+WebMegane  
+https://github.com/taisukef/WebMegane/  
