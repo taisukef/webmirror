@@ -77,6 +77,8 @@ window.onload = function() {
 		requestAnimationFrame(draw);
 	};
 	draw();
+	
+	canvas.style.transform = "scale(-1,1)";
 };
 </script>
 <style>
@@ -87,7 +89,11 @@ body {
 #video {
 	display: block;
 	width: 100%;
+	height: 100%;
 	transform: scale(0.01);
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 #canvas {
 	z-index: 3;
@@ -108,8 +114,8 @@ body {
 }
 </style>
 <body>
-<canvas id="canvas"></canvas>
 <video id="video" autoplay playsinline></video>
 <div id=debug></div>
+<canvas id="canvas"></canvas>
 </body>
 </html>
